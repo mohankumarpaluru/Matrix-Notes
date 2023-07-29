@@ -2,7 +2,7 @@
 title: Accepted Metadata for Markdown Files
 ---
 
-Here are all the metadata fields accepted by the linked-blog-starter-md template. All fields are optional.
+Here are all the metadata fields accepted by the Matrix-Notes-md template. All fields are optional.
 
 ````
 title: "Title of Note"

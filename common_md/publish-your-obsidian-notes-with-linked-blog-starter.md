@@ -1,13 +1,13 @@
 ---
-title: Publish your Obsidian Notes with linked-blog-starter
+title: Publish your Obsidian Notes with Matrix-Notes
 ---
 
 By the end of this tutorial, you'll have a github repository that will automatically publish notes to your custom website everytime you upload new notes to the `publish` folder.
 
 ## Step-by-step instructions to setup your blog
 
-1. Fork the repository [linked-blog-starter-md](https://github.com/matthewwong525/linked-blog-starter-md) repository. This repository is where the publishing occurs
-   ![fork-linked-blog-starter-md.png](attachments/fork-linked-blog-starter-md.png)
+1. Fork the repository [Matrix-Notes-md](https://github.com/mohankumarpaluru/Matrix-Notes-md) repository. This repository is where the publishing occurs
+   ![fork-Matrix-Notes-md.png](attachments/fork-Matrix-Notes-md.png)
 1. Create a [Vercel](https://vercel.com/dashboard) account then go to your dashboard then (Add New... > Project)
 1. Import the repository you just forked
 1. In the "Configure Project" settings (before you deploy), **set the "Framework Preset" to Next.JS** . Then click the "Deploy" button.
@@ -27,4 +27,4 @@ By the end of this tutorial, you'll have a github repository that will automatic
 Optionally, you can:
 
 * [Publish Notes within your Obsidian Vault](connect-obsidian-vault-with-github.md) by installing the Obsidian Git plugin
-* [Update the publish settings](update-publish-settings-github-actions.md) to publish your notes to a [custom version](deploy-a-custom-linked-blog-starter.md) of the linked-blog-starter
+* [Update the publish settings](update-publish-settings-github-actions.md) to publish your notes to a [custom version](deploy-a-custom-Matrix-Notes.md) of the Matrix-Notes

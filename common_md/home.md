@@ -16,22 +16,22 @@ excerpt: Create your own template or use someone else's. Changing the template i
 
 -- ChatGPT
 
-## How the linked-blog-starter template addresses these problems:
+## How the Matrix-Notes template addresses these problems:
 
 ### Compatibility
 
-[External / extensible libraries](linked-blog-starter-does-not-reinvent-wheel.md) are used to convert Obsidian MD files to common markdown then to HTML
+[External / extensible libraries](Matrix-Notes-does-not-reinvent-wheel.md) are used to convert Obsidian MD files to common markdown then to HTML
 
 ### Ease of Use
 
-Obsidian notes [work out of the box](works-out-of-the-box-with-markdown-files.md) and after the [setup](publish-your-obsidian-notes-with-linked-blog-starter.md), publishing notes is done in 2 steps:
+Obsidian notes [work out of the box](works-out-of-the-box-with-markdown-files.md) and after the [setup](publish-your-obsidian-notes-with-Matrix-Notes.md), publishing notes is done in 2 steps:
 1. Write a note in `/publish` folder within Obsidian
 2. Run the backup command [using the Obsidian Git plugin](connect-obsidian-vault-with-github.md)
 
 ### Customization
 
-[Create your own template](deploy-a-custom-linked-blog-starter.md) or use someone else's! Changing the template is simple matter of [updating one line in your repository](update-publish-settings-github-actions.md).
-- There's also an added feature to add "PreviewLinks" to text outside of markdown files. (See the footer in the [example](https://linked-blog-starter.vercel.app/home))
+[Create your own template](deploy-a-custom-Matrix-Notes.md) or use someone else's! Changing the template is simple matter of [updating one line in your repository](update-publish-settings-github-actions.md).
+- There's also an added feature to add "PreviewLinks" to text outside of markdown files. (See the footer in the [example](https://Matrix-Notes.vercel.app/home))
 
 ### Performance
 
@@ -41,16 +41,16 @@ All markdown files are [statically generated](statically-generated.md) meaning l
 
 ### Demo
 
-[https://linked-blog-starter.vercel.app/](https://linked-blog-starter.vercel.app/)
+[https://Matrix-Notes.vercel.app/](https://Matrix-Notes.vercel.app/)
 
 ### Deploy your own
 
-Only deploy through this method, if you want to get a quick server up and running. Otherwise, I'd recommend following the [instructions to integrate this with your Obsidian Vault](publish-your-obsidian-notes-with-linked-blog-starter.md).
+Only deploy through this method, if you want to get a quick server up and running. Otherwise, I'd recommend following the [instructions to integrate this with your Obsidian Vault](publish-your-obsidian-notes-with-Matrix-Notes.md).
 
-Deploy the example using [Vercel](https://vercel.com/new/git/external?repository-url=https://github.com/matthewwong525/linked-blog-starter&project-name=linked-blog-starter&repository-name=linked-blog-starter) or preview live with [StackBlitz](https://stackblitz.com/github/matthewwong525/linked-blog-starter)
+Deploy the example using [Vercel](https://vercel.com/new/git/external?repository-url=https://github.com/mohankumarpaluru/Matrix-Notes&project-name=Matrix-Notes&repository-name=Matrix-Notes) or preview live with [StackBlitz](https://stackblitz.com/github/mohankumarpaluru/Matrix-Notes)
 
 ### Create a Custom Fork
 
-Here is an example of how I [forked this repo](https://github.com/fleetingnotes/fleeting-notes-website) to create a landing page for [Fleeting Notes](https://www.fleetingnotes.app/). See [how to deploy a custom version of the linked-blog-starter](deploy-a-custom-linked-blog-starter.md)
+Here is an example of how I [forked this repo](https://github.com/fleetingnotes/fleeting-notes-website) to create a landing page for [Fleeting Notes](https://www.fleetingnotes.app/). See [how to deploy a custom version of the Matrix-Notes](deploy-a-custom-Matrix-Notes.md)
 
 ![fn-website-demo.gif](attachments/fn-website-demo.gif)

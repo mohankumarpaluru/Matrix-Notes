@@ -1,5 +1,5 @@
 ---
-title: linked-blog-starter does not reinvent the wheel
+title: Matrix-Notes does not reinvent the wheel
 date: 2022-12-12
 ---
 

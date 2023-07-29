@@ -1,17 +1,17 @@
 ---
-title: Deploy a custom version of the linked-blog-starter
+title: Deploy a custom version of the Matrix-Notes
 ---
 
-By the end of this tutorial, you will have a custom version of the [linked-blog-starter](https://github.com/matthewwong525/linked-blog-starter) that deploys to Vercel
+By the end of this tutorial, you will have a custom version of the [Matrix-Notes](https://github.com/mohankumarpaluru/Matrix-Notes) that deploys to Vercel
 
 ## Fork the repository and get it to run locally
 
-First, we want to fork the linked-blog-starter repo, then [install](install-linked-blog-starter-locally.md) and run it locally.
+First, we want to fork the Matrix-Notes repo, then [install](install-Matrix-Notes-locally.md) and run it locally.
 
-**Note**: Update `https://github.com/matthewwong525/linked-blog-starter` with your own repository link
+**Note**: Update `https://github.com/mohankumarpaluru/Matrix-Notes` with your own repository link
 
-1. Clone this repo by running `git clone https://github.com/matthewwong525/linked-blog-starter`
-1. `cd linked-blog-starter`
+1. Clone this repo by running `git clone https://github.com/mohankumarpaluru/Matrix-Notes`
+1. `cd Matrix-Notes`
 1. `npm install`
 1. `npm run dev`
 1. Go to `localhost:3000` in your browser
@@ -29,6 +29,6 @@ Here are the [docs for Next.JS](https://nextjs.org/docs) and a few things to kno
 
 ## Publish the repository and link it with an MD repository
 
-1. [Create and publish](publish-your-obsidian-notes-with-linked-blog-starter.md) your forked md repository
+1. [Create and publish](publish-your-obsidian-notes-with-Matrix-Notes.md) your forked md repository
 1. Update the ["BLOG_REPO" environment variable](update-publish-settings-github-actions.md) to point to your forked repo
 1. OPTIONAL: [Connect your Obsidian Vault with Github](connect-obsidian-vault-with-github.md)
