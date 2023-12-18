@@ -25,7 +25,7 @@ const PostMeta = ({
         <div>
           {author && (
             <>
-              <span className="text-gray-600">By </span>
+              <span className="text-gray-600"></span>
               <a className="font-medium hover:underline" href="#0">{author.name}</a>
             </>
           )}
