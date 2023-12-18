@@ -18,7 +18,7 @@ const PostMeta = ({
           <div className="flex shrink-0 mr-3">
             <a className="relative" href="#0">
               <span className="absolute inset-0 -m-px" aria-hidden="true"><span className="absolute inset-0 -m-px bg-white rounded-full"></span></span>
-              <img className="relative rounded-full" src={author.picture} width="32" height="32" alt="Author" />
+              <img className="relative rounded-full" src='https://cdn.jsdelivr.net/gh/mohankumarpaluru/Matrix-Notes@04020fb7fb956fc7cc789742f612a12dc0f49a59/public/assets/blog/authors/mkp.png' width="32" height="32" alt="Author" />
             </a>
           </div>
         )}
@@ -26,7 +26,7 @@ const PostMeta = ({
           {author && (
             <>
               <span className="text-gray-600">By </span>
-              <a className="font-medium hover:underline" href="#0">{author.name}</a>
+              <a className="font-medium hover:underline" href="#0">Matrix</a>
             </>
           )}
           {(author && date) && <span className="text-gray-600"> · </span>}
